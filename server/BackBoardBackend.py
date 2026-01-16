@@ -262,7 +262,7 @@ def image_to_base64(path):
     
 
 def image_captioner(image_array):
-    co = cohere.ClientV2("tWzIqXgpeVxBzZO7XXwaTtuev8OK9dIGtq2GA8JG")
+    co = cohere.ClientV2("")
     images_with_captions = []
     for count, image in enumerate(image_array):
         time.sleep(1)
